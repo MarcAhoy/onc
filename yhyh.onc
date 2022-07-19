@@ -1,0 +1,40 @@
+{
+		 "Type":"UnencryptedConfiguration",
+		      "Certificates": [ {
+		      "GUID": "{b568d015-290f-9651-f80f-d6c48040ed6a}",
+		      "Type": "Authority",
+		      "X509": "9o9o9o9o9o9o99o"
+		   }, {
+		      "GUID": "{84204e17-4d3b-f44f-1c39-7330427d5cdc}",
+		      "Type": "Client",
+		      "PKCS12": "ooo"
+		   } ],
+		    "NetworkConfigurations": [ {
+		      "GUID": "{4361851e-2aee-0b92-8b3c-acb957176eeb}",
+		      "Name": "yhyh",
+		      "Type": "VPN",
+		      "VPN": {
+		          "Type": "OpenVPN",
+		          "Host": "192.168.1.1",
+		          "OpenVPN": {
+		                    "ServerCARef": "{b568d015-290f-9651-f80f-d6c48040ed6a}",
+		                    "AuthRetry": "interact",
+		                    "ClientCertType": "Ref",
+		                    "ClientCertRef": "{84204e17-4d3b-f44f-1c39-7330427d5cdc}",
+		                    "CompLZO": "true",
+		                    "Cipher": "AES-256-CBC",
+		                    "Auth": "SHA512",
+		                    "Port": 443,
+		                    "Proto": tcp,
+		                    "RemoteCertTLS":"server",
+		                    "RemoteCertEKU": "TLS Web Server Authentication",
+		                    "SaveCredentials": true,
+		                    "ServerPollTimeout": 10,
+		                    "Username": "dummy99",
+		                    "Password": "dummy99",
+		                    "KeyDirection":"1",                    
+		                    "TLSAuthContents":"9o9o9o9o"
+		                     }
+		             }
+		       } ]
+		}
