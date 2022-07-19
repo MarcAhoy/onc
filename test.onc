@@ -1,54 +1,28 @@
 {
 	"Connectable": true,
-	"ConnectionState": "Connected",
-	"GUID": "{509fa43d-6154-423e-85b6-d7b6239b9080}",
+	"ConnectionState": "NotConnected",
+	"GUID": "{fecd8af5-6652-488f-8c4d-6473d651445e}",
 	"IPAddressConfigType": "DHCP",
-	"IPConfigs": [
-		{
-			"Gateway": "10.101.128.1",
-			"IPAddress": "10.101.130.122",
-			"NameServers": [
-				"10.60.20.211",
-				"10.60.20.212"
-			],
-			"RoutingPrefix": 19,
-			"Type": "IPv4",
-			"WebProxyAutoDiscoveryUrl": ""
-		}
-	],
-	"MacAddress": "E0:2B:E9:08:7D:DE",
 	"Metered": false,
-	"Name": "CB5",
+	"Name": "GUSD",
 	"NameServersConfigType": "DHCP",
 	"Priority": 0,
 	"ProxySettings": {
 		"Type": "Direct"
-	},
-	"SavedIPConfig": {
-		"ExcludedRoutes": [],
-		"Gateway": "10.101.128.1",
-		"IPAddress": "10.101.130.122",
-		"IncludedRoutes": [],
-		"NameServers": [
-			"10.60.20.211",
-			"10.60.20.212"
-		],
-		"RoutingPrefix": 19,
-		"SearchDomains": [],
-		"Type": "IPv4"
 	},
 	"Source": "UserPolicy",
 	"TrafficCounterResetTime": 0,
 	"Type": "WiFi",
 	"WiFi": {
 		"AllowGatewayARPPolling": true,
-		"AutoConnect": true,
-		"BSSID": "1c:1d:86:71:cc:0d",
+		"AutoConnect": false,
+		"BSSID": "1c:1d:86:71:cc:0e",
 		"EAP": {
 			"AnonymousIdentity": "",
 			"ClientCertPKCS11Id": "",
 			"ClientCertType": "PKCS11Id",
-			"Identity": "",
+			"Identity": "chromeuser",
+			"Outer": "PEAP",
 			"SaveCredentials": false,
 			"ServerCAPEMs": [],
 			"SubjectMatch": "",
@@ -58,17 +32,19 @@
 		},
 		"Frequency": 5320,
 		"FrequencyList": [
+			2412,
+			2437,
+			2462,
 			5220,
 			5240,
 			5320,
 			5500,
-			5745,
 			5825
 		],
-		"HexSSID": "434235",
+		"HexSSID": "47555344",
 		"HiddenSSID": false,
-		"SSID": "CB5",
-		"Security": "WPA-PSK",
+		"SSID": "GUSD",
+		"Security": "WPA-EAP",
 		"SignalStrength": 100
 	}
 }
