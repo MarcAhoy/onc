@@ -6,13 +6,14 @@
       "Type": "VPN",
       "VPN": {
         "Type": "WireGuard",
+        "Host": "173.230.147.181",
         "WireGuard": {
-          "PrivateKey": "cImEoLbmzDlLXafaZkhItvw6dhHbpkcY0RquIhsEDn8=",
-          "WireGuardPeer": {
+        "PrivateKey": "cImEoLbmzDlLXafaZkhItvw6dhHbpkcY0RquIhsEDn8=",
+        "Peers": {
           "PublicKey": "MQ2ikZ/ewLnszrXEa7Snz7GpK0uvWnPIO3I/JnD65j4=",
           "AllowedIPs": "10.0.0.4/32",
           "Endpoint": "173.230.147.181:51820",
-          "PersistentKeepalive": "21",
+          "PersistentKeepalive": 21,
           },
         }
       }
