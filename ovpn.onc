@@ -1,0 +1,43 @@
+{
+  "Type": "UnencryptedConfiguration",
+  "Certificates": [
+    {
+      "GUID": "{2efedd3a-5d30-4521-b430-09bf81c13a1f}",
+      "Type": "Authority",
+      "X509": "MIICyDCCAbCgAwIBAgIEYtg9yDANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDDApPcGVuVlBOIENBMB4XDTIyMDcxOTE3MzkyMFoXDTMyMDcxNzE3MzkyMFowFTETMBEGA1UEAwwKT3BlblZQTiBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOJiG961Ov5ZvzdUIw5/+sSBIwwGgRLpiMWr6DXA5Hb8+Glw2d3Zido2iRnXUEn/xMV/2ilrQ6UVgUMjztfUDZKppf+a2tOO8ZHdcHEK0j4ClFekfv27lVa1c+tuyWaU1qz5DYir2FgFwo7St9Yznxm8AJ/rupMmWMfRASamE4yUvqzhdm+kRdYTxpbp30zJ5V4NTY+Z28KFS96MDg2/GizV0qfTtCr+3dbQN3QvW6Q/cDmMbbw/frprnciA7nEK5peGYCjC14eI087rh65b/Lc2bT4+eyF8YdcMZQJzRzoL1qA70DyHHvrISu7/DbXRNx+BGqMtN/AYp+R8DhbtePkCAwEAAaMgMB4wDwYDVR0TAQH/BAUwAwEB/zALBgNVHQ8EBAMCAQYwDQYJKoZIhvcNAQELBQADggEBAMMTOdzijp+HvOOJzLhPOZqj6WVm5wy+UWOheTsG+pCM95EQLjXJrLagXBsWVhTT5ZHuPNe47DvgpL6Vvmo4INkUmoSS/U6FHo1+6JgI0LitQnHB5ZQQldRvAejZ5lft6XucjvyG1cw9tg3GRl7AsU3LKTAKWbR5K9yornM35twklvnwCSlGM22XUc+qTnbxz6GlNMjx3yHft3F+zUgoXkTFaffXdEBiS54gHP4lmDQpX1a0VCy9JOTpxGtyQrwAJz/NWe2MRy2DPP5UsRxsZfWI18onydtextqkohOwIt1VxT1GiJ3o83vqp/3QySTo5iwbOmUQf2Rqvy+CMrg0SOw="
+    },
+    {
+      "GUID": "{a4d354ff-ecda-4e96-8e40-8be8e93a1e17}",
+      "Type": "Authority",
+      "X509": "MIIC5zCCAc+gAwIBAgIBAzANBgkqhkiG9w0BAQsFADAVMRMwEQYDVQQDDApPcGVuVlBOIENBMB4XDTIyMDcxOTE3NDY1MVoXDTMyMDcxNzE3NDY1MVowEjEQMA4GA1UEAwwHb3BlbnZwbjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOeFEokfxCCf1sAHHe/JHPxOhK/ZTzMLr84Yhc5dGL3/X6LiQeqOSyrpL3NKtbFcIY2kNGzUVnx2Ot0UHCJLOKvJOdP6WnfcAdFu6yNSiarKWv9gOGTsiEfnK54OmOBhJg7ww3YCE4HC72AfdPWYaZ76D6e5EWS9m55F8OiOGeoabVj5fTp8MgB+adXSO6DQ4Y69egkGn8GGHeI6ynG5iwxMQ3waGd8wm+YxkHDFG/RG/HN+o7hv/1SvQ93y+nGJyX84vWkR5/BlgAzmiubx8nA/C6/lyDsCg03cOYSoXp/EgDjEnrsUX2aGNZKYutKK5yF5Uig71B2Hu0smca04Pm0CAwEAAaNFMEMwDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwIwEQYJYIZIAYb4QgEBBAQDAgeAMA0GCSqGSIb3DQEBCwUAA4IBAQC3ezyHN2nJcTLaHyVjM+ZjjsPLSuTUO/5V8SF7cpO0h5NHHCrXEpJRseAC4zWG+xRPsFRxrY0F8+Df4UvEt+vNy2rgWChxoQtcWJ2pZYwJooKQGKSKR30e/Rh9Lxk4UE6snhpXMvlmxgZiYmawPVwahn99evo7MC6BFhSf+QqQyaq7sU0GiiOsO/PWr8XQ1Ze9WCfOACllwUQ6vksDkN6IgZKc3wHpxIxd1KGj+CC9dqGrC+4zPMZf5lnk1BSoaDNgsgHcEls4DaSnSpb/DXBENaWkMgcjOzFjiUmpQLCdUprQyu2oMI11K2nMC4e0q1khbIRfJceqzd7fEtMUk6fX"
+    }
+  ],
+  "NetworkConfigurations": [
+    {
+      "GUID": "{f48e9fc2-4875-465e-b87d-877e5c50491b}",
+      "Name": "alasss",
+      "Type": "VPN",
+      "VPN": {
+        "Type": "OpenVPN",
+        "Host": "104.200.25.243",
+        "OpenVPN": {
+          "Port": 1194,
+          "UserAuthenticationType": "Password",
+          "CompLZO": "false",
+          "RemoteCertTLS": "server",
+          "Cipher": "AES-256-CBC",
+          "RenegSec": 604800,
+          "ServerCARefs": [
+            "{2efedd3a-5d30-4521-b430-09bf81c13a1f}"
+          ],
+          "ClientCertType": "Pattern",
+          "ClientCertPattern": {
+            "IssuerCARef": [
+              "{a4d354ff-ecda-4e96-8e40-8be8e93a1e17}"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
