@@ -1,6 +1,5 @@
 {
- 
- "NetworkConfigurations": [
+"NetworkConfigurations": [
     {
       "GUID": "allahvpn",
       "Name": "allah",
@@ -14,7 +13,7 @@
           "AllowedIPs": "10.0.0.4/32",
           "Endpoint": "173.230.147.181:51820",
           "PersistentKeepalive": "21",
-          }
+          },
         }
       }
     }
