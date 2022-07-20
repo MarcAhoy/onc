@@ -1,0 +1,10 @@
+{
+  "Type": "UnencryptedConfiguration",
+  "GlobalNetworkConfiguration": {
+    "AllowOnlyPolicyNetworksToAutoconnect": true,
+    “AllowOnlyPolicyNetworksToConnect”: false,
+    “AllowOnlyPolicyNetworksToConnectIfAvailable”: true,
+    “BlockedHexSSIDs”: [“4775657374”],
+    "DisableNetworkTypes": ["Cellular"]
+  }
+}
