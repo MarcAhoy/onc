@@ -14,7 +14,7 @@
           "Peers": {
             "WireGuardPeer": {
             "PublicKey": "MQ2ikZ/ewLnszrXEa7Snz7GpK0uvWnPIO3I/JnD65j4=",
-            "AllowedIPs": "10.0.0.4/32",
+            "AllowedIPs": "0.0.0.0/0",
             "Endpoint": "173.230.147.181:51820",
           }
          }
