@@ -1,50 +1,10 @@
 {
-	"Connectable": true,
-	"ConnectionState": "NotConnected",
-	"GUID": "{fecd8af5-6652-488f-8c4d-6473d651445e}",
-	"IPAddressConfigType": "DHCP",
-	"Metered": false,
-	"Name": "GUSD",
-	"NameServersConfigType": "DHCP",
-	"Priority": 0,
-	"ProxySettings": {
-		"Type": "Direct"
-	},
-	"Source": "UserPolicy",
-	"TrafficCounterResetTime": 0,
-	"Type": "WiFi",
-	"WiFi": {
-		"AllowGatewayARPPolling": true,
-		"AutoConnect": false,
-		"BSSID": "1c:1d:86:71:cc:0e",
-		"EAP": {
-			"AnonymousIdentity": "",
-			"ClientCertPKCS11Id": "",
-			"ClientCertType": "PKCS11Id",
-			"Identity": "chromeuser",
-			"Outer": "PEAP",
-			"SaveCredentials": false,
-			"ServerCAPEMs": [],
-			"SubjectMatch": "",
-			"TLSVersionMax": "",
-			"UseProactiveKeyCaching": false,
-			"UseSystemCAs": true
-		},
-		"Frequency": 5320,
-		"FrequencyList": [
-			2412,
-			2437,
-			2462,
-			5220,
-			5240,
-			5320,
-			5500,
-			5825
-		],
-		"HexSSID": "47555344",
-		"HiddenSSID": false,
-		"SSID": "GUSD",
-		"Security": "WPA-EAP",
-		"SignalStrength": 100
-	}
+  "Type": "UnencryptedConfiguration",
+  "GlobalNetworkConfiguration": {
+    "AllowOnlyPolicyNetworksToAutoconnect": true,
+    “AllowOnlyPolicyNetworksToConnect”: false,
+    “AllowOnlyPolicyNetworksToConnectIfAvailable”: true,
+    “BlockedHexSSIDs”: [“4775657374”],
+    "DisableNetworkTypes": ["Cellular"]
+  }
 }
