@@ -1,13 +1,14 @@
 { 
 "NetworkConfigurations": [ 
 { 
-"GUID": "{4b224dfd-6849-7a63-5e394343244ae9c9}", 
-"Name": "test", 
+"GUID": "allawireless", 
+"Name": "allah", 
 "Type": "WiFi", 
 "WiFi": { 
-  "SSID": "my WiFi", 
+  "SSID": "Basterma_Briggs_2G", 
   "HiddenSSID": false, 
-  "Security": "None", 
+  "Security": "WPA-PSK",
+  "Passphrase": "8184344016",
   "AutoConnect": true 
   } 
  } 
