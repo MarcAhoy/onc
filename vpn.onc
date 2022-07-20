@@ -12,9 +12,11 @@
         "WireGuard": {
           "PrivateKey": "cImEoLbmzDlLXafaZkhItvw6dhHbpkcY0RquIhsEDn8=",
           "Peers": [
+            "WireGuardPeer": {
              "PublicKey": "MQ2ikZ/ewLnszrXEa7Snz7GpK0uvWnPIO3I/JnD65j4=",
              "AllowedIPs": "0.0.0.0/0",
              "Endpoint": "173.230.147.181:51820",
+             }
            ]
           
         }
