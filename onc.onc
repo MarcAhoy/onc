@@ -1,13 +1,75 @@
 { 
 "NetworkConfigurations": [ { 
-"GUID": "{4b224dfd-6849-7a63-5e394343244ae9c9}", 
-"Name": "bas2.0", 
-"Type": "WiFi", 
-"WiFi": { 
-  "SSID": "Basterma_Briggs_5G",
-  "HiddenSSID": false, 
-  "Security": "WPA-PSK",
-  "Password": "8184344036",
-  "AutoConnect": true } 
-  } 
+	"Connectable": true,
+	"ConnectionState": "Connected",
+	"GUID": "1c049325-5ac8-4677-b363-4aa58a2ad005",
+	"IPAddressConfigType": "DHCP",
+	"IPConfigs": [
+		{
+			"Gateway": "192.168.1.1",
+			"IPAddress": "192.168.1.170",
+			"NameServers": [
+				"192.168.1.1"
+			],
+			"RoutingPrefix": 24,
+			"Type": "IPv4",
+			"WebProxyAutoDiscoveryUrl": ""
+		},
+		{
+			"Gateway": "fe80::6238:e0ff:fe0e:f2bd",
+			"IPAddress": "2600:6c50:97f:409d:3d04:7219:6b50:39be",
+			"NameServers": [
+				"2600:6c50:97f:409d:6238:e0ff:fe0e:f2bd"
+			],
+			"RoutingPrefix": 64,
+			"Type": "IPv6",
+			"WebProxyAutoDiscoveryUrl": ""
+		}
+	],
+	"MacAddress": "E0:2B:E9:08:7D:DE",
+	"Metered": false,
+	"Name": "Basterma_Briggs_2G",
+	"NameServersConfigType": "DHCP",
+	"Priority": 0,
+	"SavedIPConfig": {
+		"ExcludedRoutes": [],
+		"Gateway": "192.168.1.1",
+		"IPAddress": "192.168.1.170",
+		"IncludedRoutes": [],
+		"NameServers": [
+			"192.168.1.1"
+		],
+		"RoutingPrefix": 24,
+		"SearchDomains": [],
+		"Type": "IPv4"
+	},
+	"Source": "User",
+	"TrafficCounterResetTime": 0,
+	"Type": "WiFi",
+	"WiFi": {
+		"AllowGatewayARPPolling": true,
+		"AutoConnect": true,
+		"BSSID": "60:38:e0:0e:f2:be",
+		"EAP": {
+			"AnonymousIdentity": "",
+			"ClientCertPKCS11Id": "",
+			"ClientCertType": "PKCS11Id",
+			"Identity": "",
+			"SaveCredentials": true,
+			"ServerCAPEMs": [],
+			"SubjectMatch": "",
+			"TLSVersionMax": "",
+			"UseProactiveKeyCaching": false,
+			"UseSystemCAs": true
+		},
+		"Frequency": 2412,
+		"FrequencyList": [
+			2412
+		],
+		"HexSSID": "4261737465726D615F4272696767735F3247",
+		"HiddenSSID": false,
+		"SSID": "Basterma_Briggs_2G",
+		"Security": "WPA-PSK",
+		"SignalStrength": 100
+	}
 ] }
