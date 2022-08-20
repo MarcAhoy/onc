@@ -1,12 +1,13 @@
 { 
 "NetworkConfigurations": [ { 
 "GUID": "{4b224dfd-6849-7a63-5e394343244ae9c9}", 
-"Name": "my WiFi", 
+"Name": "bas2.0", 
 "Type": "WiFi", 
 "WiFi": { 
-  "SSID": "my WiFi",
+  "SSID": "Basterma_Briggs_5G",
   "HiddenSSID": false, 
-  "Security": "None", 
+  "Security": "WPA-PSK",
+  "Password": "8184344036",
   "AutoConnect": true } 
   } 
 ] }
